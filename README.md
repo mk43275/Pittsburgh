@@ -19,7 +19,27 @@ Exploring Datasets + Collecting Data-Driven Insights + Proposing a Solution
 - Marking down insights
 
 ### Detailed Insights Summarized:
-- 
+**Condemned or Dead-End**
+- Approximately 79.2% of Properties are Condemned
+- Approximately 20.8% of Properties are Dead-End
+
+**Fail Inspection**
+- Approximately 79.3% of Condemned Properties Fail Inspection.
+- Approximately 10.6% of Dead-End Properties Fail Inspection.
+
+**Scores Evaluation**
+*   All Dead-End Properties having a score of 1 show that they are structurally intact with no immediate observable danger. **[Source](https://engage.pittsburghpa.gov/pli-demolition-engagement)**
+*   Condemned Properties scores range from 1-4, with 4 being imminently dangerous, these can be the properties/areas the city prioritizes.
+
+
+**Score 4 Properties**
+*   The 3 owners of the 3 Score 4 Properties are: City of Pittsburgh, Gill John, and Gardner Luella B.
+*   By Identifying their Addresses with the cleaned dataset, we could prioritize these high-risk properties to obtain private demolition permit or a building permit to repair.
+
+**Addresses**
+*   Most addresses in the dataset is listed as "No primary address specified". 
+*   This will have to be filled in to figure out which areas should be prioritized first.
+
 
 ## Combining Datasets
 ### **Dataset 1: [Allegheny County Property Assessments - Property Assessments Parcel Data](https://data.wprdc.org/dataset/property-assessments/resource/9a1c60bd-f9f7-4aba-aeb7-af8c3aaa44e5)**
