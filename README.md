@@ -41,7 +41,7 @@ Exploring Datasets + Collecting Data-Driven Insights + Proposing a Solution
 *   This will have to be filled in to figure out which areas should be prioritized first.
 
 
-## Combining Datasets
+## Combining Datasets 
 ### **Dataset 1: [Allegheny County Property Assessments - Property Assessments Parcel Data](https://data.wprdc.org/dataset/property-assessments/resource/9a1c60bd-f9f7-4aba-aeb7-af8c3aaa44e5)**
 ### What was done:
 - Cleaned the dataset: took only necessary columns (pid, address features) and converted the address features into a more interpretable data value
@@ -61,10 +61,13 @@ Exploring Datasets + Collecting Data-Driven Insights + Proposing a Solution
 - In our original *cleaned* data, City of Pittsburgh owned 460 properties
 - The dataset claims that 470 of the properties are owned by the City of Pittsburgh
 - 28 of the properties are claimed to be owned by the City of Pittsburgh when listed to be owned by another individual in original data.
-- Out of 470 rows, this filled in 138 rows with valid addresses (even with varying owners). 
+- Out of 470 rows, this filled in 138 rows with valid addresses, making all 470 entries have valid addresses.
 - Lowered 647 missing address entries to 509. (saved in final_draft_df.csv)
 - 28 rows of data had different owner, and some had valid addresses.
 - Out of the 28, 5 rows did not match the owner (shown above) and lacked a valid address, while the rest, 13 rows, had a valid address but differing owners.
 
-## Fix the ownership -- comparing the dates of the City Properties Data + Condemned Properties Data
-
+## Files (Located in Folder: Condemned-DeadEnd-Properties): 
+**EDA_+_Data_Cleaning.ipynb.ipynb** --> baseline data exploration and cleaning file. 
+**Combining_Datasets.ipynb** --> baseline file for combining dataset (no updating owners by date of entries)
+**Combining_Datasets:_Allegheny.ipynb** --> refined file for combining Allegheny address data to our dataset
+**Combining_Datasets:_City_Property.ipynb** --> refined file for comining the initially merged dataset (Allegheny + our cleaned dataset) to combine with city property dataset, refining owners information and address information
