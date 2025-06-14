@@ -1,6 +1,9 @@
 # Pittsburgh: Condemned-DeadEnd-Properties
 Exploring Datasets + Collecting Data-Driven Insights + Proposing a Solution
 
+### Pittsburgh Condemned and Dead-End Properties Report
+Report on process and findings
+
 ## Files Included & Use:
 1. **deadend.csv** --> original dataset obtained from [Condemned Properties](https://data.wprdc.org/dataset/condemned-properties/resource/0a963f26-eb4b-4325-bbbc-3ddf6a871410)
 2. **no_dupe_df.csv** --> cleaned dataset with parcel_id duplicates removed + score range being fixed
