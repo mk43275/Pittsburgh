@@ -58,7 +58,7 @@ Report on process and findings
 ### What was done:
 - Explored the dataset
 - Cleaned the dataaset to the necessary columns and relevant information.
-- Updated the addresses (even with varying owners). 
+- Updated the addresses fixing the varying owner rows.
 
 ### Detailed Insights Summarized:
 - In our original *cleaned* data, City of Pittsburgh owned 460 properties
