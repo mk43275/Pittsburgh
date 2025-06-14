@@ -68,6 +68,9 @@ Exploring Datasets + Collecting Data-Driven Insights + Proposing a Solution
 
 ## Files (Located in Folder: Condemned-DeadEnd-Properties): 
 **EDA_+_Data_Cleaning.ipynb.ipynb** --> baseline data exploration and cleaning file. 
+
 **Combining_Datasets.ipynb** --> baseline file for combining dataset (no updating owners by date of entries)
+
 **Combining_Datasets:_Allegheny.ipynb** --> refined file for combining Allegheny address data to our dataset
+
 **Combining_Datasets:_City_Property.ipynb** --> refined file for comining the initially merged dataset (Allegheny + our cleaned dataset) to combine with city property dataset, refining owners information and address information
